@@ -1,0 +1,67 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #333;
+}
+
+.play-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: #ff5f6d;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.play-btn:hover {
+  background: #ffc371;
+  transform: scale(1.1);
+}
+
+#choices-card {
+  margin-top: 30px;
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+#choices-card p {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+#result-card {
+  margin-top: 20px;
+  background: #fffae6;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+#winner {
+  font-size: 26px;
+  color: #333;
+  margin: 0;
+}
