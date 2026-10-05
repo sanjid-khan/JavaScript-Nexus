@@ -1,0 +1,86 @@
+/* Main container */
+.container {
+  width: 60%;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* Question block */
+.question {
+  background: #ffffff;
+  padding: 15px 20px;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/* .question:hover {
+  border-color: #3498db;
+  background: #f0f8ff;
+} */
+
+/* Question text */
+.question p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Radio buttons and labels */
+label {
+  display: block;
+  padding: 6px 0;
+  cursor: pointer;
+  font-size: 16px;
+  color: #444;
+  transition: 0.2s;
+}
+
+label:hover {
+  color: #3498db;
+}
+
+/* Radio styling */
+/* input[type="radio"] {
+  margin-right: 10px;
+  accent-color: #3498db; /* modern browsers support 
+ */
+
+ .submit-btn {
+  background-color: #28a745;   /* সবুজ ব্যাকগ্রাউন্ড */
+  color: white;                /* সাদা টেক্সট */
+  padding: 12px 24px;          /* ভেতরে ফাঁকা জায়গা */
+  font-size: 16px;             /* ফন্ট সাইজ */
+  font-weight: bold;           /* bold লেখা */
+  border: none;                /* বর্ডার বাদ */
+  border-radius: 8px;          /* কোণ গোলাকার */
+  cursor: pointer;             /* হোভার করলে pointer */
+  transition: 0.3s ease;       /* hover effect smooth */
+  display: block;
+  margin: 20px auto;           /* বাটন মাঝখানে */
+}
+
+.submit-btn:hover {
+  background-color: #218838;   /* hover এ গাঢ় সবুজ */
+  transform: scale(1.05);      /* হালকা বড় হবে */
+}
+
+.submit-btn:active {
+  background-color: #1e7e34;   /* চাপ দিলে আরও গাঢ় */
+  transform: scale(0.97);      /* হালকা ছোট হবে */
+}
