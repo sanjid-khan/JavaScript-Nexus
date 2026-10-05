@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Counter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        #count {
+            font-size: 48px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Simple Counter App</h1>
+    <div id="count">0</div>
+    <button id="decrease">-</button>
+    <button id="increase">+</button>
+    <button id="reset">Reset</button>
+
+    <script>
+        // DOM elements
+        const countEl = document.getElementById('count');
+        const increaseBtn = document.getElementById('increase');
+        const decreaseBtn = document.getElementById('decrease');
+        const resetBtn = document.getElementById('reset');
+
+        // Counter value
+        let count = 0;
+
+        // Event listeners
+        increaseBtn.addEventListener('click', () => {
+            count++;
+            countEl.textContent = count;
+        });
+
+        decreaseBtn.addEventListener('click', () => {
+            count--;
+            countEl.textContent = count;
+        });
+
+        resetBtn.addEventListener('click', () => {
+            count = 0;
+            countEl.textContent = count;
+        });
+    </script>
+
+</body>
+</html>
